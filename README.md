@@ -65,13 +65,15 @@ It is VERY IMPORTANT to put this wire in the correct place, otherwise you might 
 
 Instead of feeding in electricity directly from the wall wart, the input to the controller comes from the step-up transformer, as you can see in the picture.
 
-The arduino Nano can't handle the voltage we'll be pumping into the controller, so we'll also need to run wires from the barrel connector to the arduino's VIN and GND pins. Refer to this picture:
+The arduino Nano can't handle the voltage we'll be pumping into the controller, so we'll also need to run wires from the barrel connector to the arduino's VIN and GND pins. Otherwise, the wiring is the same as the instructable. Picture reference:
 
 ![picture of wiring the l298N controller](resources/wiring-arduino.jpg)
 
 after all is said and done, the wiring should look like this:
 
 ![picture of wiring the l298N controller](resources/wiring-all.jpg)
+
+except not as messy
 
 ## Programming
 
@@ -81,9 +83,9 @@ Of note is that an arduino nano is pretty overkill for this application, since a
 
 ## Using
 
-I find it easiest to use teabag material to place objects, though any sonically transparent material would work fine (wire mesh is probably the best). If your item is spinnign rapidly it's an indication that the standing wave is too intense for its density; try decreasing the voltage on the transformer until it slows down.
+I find it easiest to use teabag material to place objects, though any sonically transparent material would work fine (wire mesh is probably the best). If your item is spinning rapidly it's an indication that the standing wave is too intense for its density; try decreasing the voltage on the transformer until it slows down.
 
-If you have a resin printer (or are ok with paying Shapeways 7.50 per part), you can get extremely 3d printed models to levitate. The size of the object that can be levitated is a function of half the wavelength, so anything more than ~4.5mm in diameter is too large. Luckily that's just above the minimum size requirements for Shapeways.
+If you have a resin printer (or are ok with paying Shapeways 7.50 per part), you can get extremely tiny 3d printed models to levitate. The size of the object that can be levitated is a function of half the wavelength, so anything more than ~4.5mm in diameter is too large. Luckily that's just above the minimum size requirements for Shapeways.
 
 ## Spacing
 

@@ -49,7 +49,7 @@ There are some nasty overhangs in the BigLev and MicroLev prints, so make sure y
 
 DO NOT SKIP MARKING YOUR TRANSDUCERS. Despite most transducers having a marked 'ground' wire it does NOT correlate to polarity. For most applications this does not matter, but in our case if you place two transducers with opposite polarity next to each other they will destructively interfere, decreasing the power of your device. The direction of the polarity doesn't actually matter, but what _does_ matter is that all transducers are wired the same. I placed the marked leg towards the center, just like the instructable. I created a jig for testing the polarity, which you can glue wires into to make it easier to connect the transducer to the arduino:
 
-![picture of wiring jig]('resources/jig.jpg')
+![picture of wiring jig](resources/jig.jpg)
 
 Most transducers come in pairs; one transducer is for transmitting waves and the other for receiving. Transmitters are tuned to produce waves based on electrical input, whereas receivers are tuned to produce electrical input based on sounds. While this _sounds_ bad for us, since we are only interested in producing waves, receivers and transmitters can be used interchangeably with a small loss in efficiency. If you can find a source of only transmitters (or transceivers, which are a compromise between the two) by all means, but it really isn't worth any extra money. For peace of mind, I separated my transmitters and receivers and alternated between them when I placed them in the enclosure, so that I wouldn't accidentally place a large amount of them on either half.
 
@@ -59,7 +59,7 @@ I will get better pictures for this later, I promise.
 
 You can by all means follow the original wiring in the instructable, but if you want to use the step-up transformer you'll have to make a few modifications. Wire the actual device as they do in the instructable, and wire it to the l298N driver as they do as well. Since we'll be far exceeding the 12V the controller needs to run its own logic, we'll need to patch in 12V from the wall wart and tell the controller to use that for logic instead of the input voltage. This means you need to take off the jumper, and attach a wire from 12V in it's place. See the brown wire in this picture:
 
-![picture of wiring the l298N controller]('resources/wiring-controller.jpg')
+![picture of wiring the l298N controller](resources/wiring-controller.jpg)
 
 It is VERY IMPORTANT to put this wire in the correct place, otherwise you might damage the controller or start a fire.
 
@@ -67,11 +67,11 @@ Instead of feeding in electricity directly from the wall wart, the input to the 
 
 The arduino Nano can't handle the voltage we'll be pumping into the controller, so we'll also need to run wires from the barrel connector to the arduino's VIN and GND pins. Refer to this picture:
 
-![picture of wiring the l298N controller]('resources/wiring-arduino.jpg')
+![picture of wiring the l298N controller](resources/wiring-arduino.jpg)
 
 after all is said and done, the wiring should look like this:
 
-![picture of wiring the l298N controller]('resources/wiring-all.jpg')
+![picture of wiring the l298N controller](resources/wiring-all.jpg)
 
 ## Programming
 

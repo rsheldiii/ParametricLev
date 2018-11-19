@@ -6,7 +6,7 @@ After coming across the Instructables for [acoustic levitators](https://www.inst
 
 # Acoustic Levitation?
 
-I encourage you to explore the instructables linked above, but the tl;dr of acoustic levitation is by manipulating sound waves high enough that the human ear can't here them, you can create high pressure and low pressure pockets that will force objects to move in a predictable pattern. In our case, we are setting up two transducer arrays in direct opposition to each other, creating a standing wave that will allow us to place objects at the nodes.
+I encourage you to explore the instructables linked above, but the tl;dr of acoustic levitation is by manipulating sound waves high enough that the human ear can't hear them, you can create high pressure and low pressure pockets that will force objects to move in a predictable pattern. In our case, we are setting up two transducer arrays in direct opposition to each other, creating a standing wave that will allow us to place objects at the nodes.
 
 # Differences from the original design
 

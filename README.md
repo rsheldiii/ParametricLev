@@ -12,15 +12,21 @@ I encourage you to explore the instructables linked above, but the tl;dr of acou
 
 ## BigLev
 
+![picture of BigLev](resources/BigLev.jpg)
+
 Like BigLev in the instructable, I ended up going with 16mm transducers, since they are more powerful and they were also cheaper than any 12mm transducers I could find. I bought 8 of [these](https://www.amazon.com/gp/product/B01FDGTXT4/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) for ~$8 a pop, for a total of 80 transducers. If you so desire, this allows you to build a BigLev, a MicroLev, and a NanoLev (72 + 6 + 2).
 
 The original acoustic levitation instructable has you order a power supply that can discretely switch between voltages. This works well, but my transducers support up to 30 volts, so I ended up using the variable step-up transformer from the tractor beam instructable. 30 volts is overkill for most applications (since voltage is mostly related to how dense a material you can levitate) but being able to precisely tune the voltage level is great for getting things to stay stable.
 
 ## MicroLev
 
+![picture of MicroLev](resources/MicroLev.jpg)
+
 MicroLev isn't featured in the original isntructable, but I wanted something simpler to test the wiring on before scaling all the way up. 6 transducers is a little hard for the nano to drive, so it can just barely levitate styrofoam without a motor controller. You might be able to increase this power by hooking up each transducer to a different pin and modifying the code, since you won't be reliant on the current output of a single pin to drive the transducers, but remember that arduino pins are connected to buses which themselves have a max current draw, so you'll have to be crafty about it. You can sidestep all of this however and just wire the MicroLev like you would the BigLev here or in the original instructable, allowing you to levitate popcorn pieces and probably a few other things.
 
 ## NanoLev
+
+![picture of NanoLev](resources/NanoLev.jpg)
 
 the NanoLev is a tiny WIP enclosure for the two-transducer device from the instructable. You'll have to find something to support the Nano, but it works ok!
 

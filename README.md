@@ -47,7 +47,7 @@ This is only a list of the changes to the instructions and gotchas I encountered
 
 ## Printing
 
-for the __BigLev__, print two of each half, with support. for the __MicroLev__ you need to print the top and bottom; the files come from an earlier design where opposing sides slotted together that unfortunately didn't fit on my 3d printer when scaling up to the BigLev. For the NanoLev, just print the one file; it's a completely different setup than the other designs.
+for the __BigLev__, print two halves, with support. for the __MicroLev__ you need to print the top and bottom; the files come from an earlier design where opposing sides slotted together that unfortunately didn't fit on my 3d printer when scaling up to the BigLev. For the NanoLev, just print the one file; it's a completely different setup than the other designs.
 
 There are some nasty overhangs in the BigLev and MicroLev prints, so make sure you print in whatever material gives you the best overhang performance.
 

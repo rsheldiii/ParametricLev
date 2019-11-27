@@ -6,7 +6,7 @@ After coming across the Instructables for [acoustic levitators](https://www.inst
 
 # Acoustic Levitation?
 
-I encourage you to explore the instructables linked above, but the tl;dr of acoustic levitation is by manipulating sound waves high enough that the human ear can't here them, you can create high pressure and low pressure pockets that will force objects to move in a predictable pattern. In our case, we are setting up two transducer arrays in direct opposition to each other, creating a standing wave that will allow us to place objects at the nodes.
+I encourage you to explore the instructables linked above, but the tl;dr of acoustic levitation is by manipulating sound waves high enough that the human ear can't hear them, you can create high pressure and low pressure pockets that will force objects to move in a predictable pattern. In our case, we are setting up two transducer arrays in direct opposition to each other, creating a standing wave that will allow us to place objects at the nodes.
 
 # Differences from the original design
 
@@ -47,7 +47,7 @@ This is only a list of the changes to the instructions and gotchas I encountered
 
 ## Printing
 
-for the __BigLev__, print two of each half, with support. for the __MicroLev__ you need to print the top and bottom; the files come from an earlier design where opposing sides slotted together that unfortunately didn't fit on my 3d printer when scaling up to the BigLev. For the NanoLev, just print the one file; it's a completely different setup than the other designs.
+for the __BigLev__, print two halves, with support. for the __MicroLev__ you need to print the top and bottom; the files come from an earlier design where opposing sides slotted together that unfortunately didn't fit on my 3d printer when scaling up to the BigLev. For the NanoLev, just print the one file; it's a completely different setup than the other designs.
 
 There are some nasty overhangs in the BigLev and MicroLev prints, so make sure you print in whatever material gives you the best overhang performance.
 

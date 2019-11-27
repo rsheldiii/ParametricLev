@@ -25,11 +25,13 @@ $extra_room_underneath = 10;
 $wall_thickness = 2;
 $lip_thickness = 4;
 
+$slop = 0.25;
 
 // transducer settings
 
 // 0.25 is slop for the transducers. 0.2 can sometimes yield a press fit
-$transducer_diameter = 16 + 0.25;
+// I believe dollar variables that rely on other dollar variables are not recalculated so don't reassign slop unless you don't want these numbers to match up
+$transducer_diameter = 16 + $slop;
 $transducer_height = 12;
 $transducer_leg_diameter = 2.5; // really 1mm but don't wanna skimp
 $transducer_leg_separation_radius = 10 / 2;
